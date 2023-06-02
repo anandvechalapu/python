@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bajaj Allianz Group Sampoorna Jeevan Suraksha Policy</title>
+	</head>
+	<body>
+		<h1>Bajaj Allianz Group Sampoorna Jeevan Suraksha Policy</h1>
+		<p>This page is for validating the Bajaj Allianz Group Sampoorna Jeevan Suraksha policy.</p>
+		<form action="/validate_policy/" method="post">
+			<label for="user_credentials">User Credentials: </label>
+			<input type="text" name="user_credentials" />
+			<br />
+			<label for="sum_assured_range">Sum Assured Range: </label>
+			<select name="sum_assured_range">
+				<option value="50000">50000</option>
+				<option value="100000">100000</option>
+				<option value="150000">150000</option>
+				<option value="200000">200000</option>
+			</select>
+			<br />
+			<label for="tenure_range">Tenure Range: </label>
+			<select name="tenure_range">
+				<option value="12">12</option>
+				<option value="15">15</option>
+				<option value="18">18</option>
+				<option value="24">24</option>
+			</select>
+			<br />
+			<label for="product_level">Product Level: </label>
+			<input type="text" name="product_level" />
+			<br />
+			<label for="master_level">Master Level: </label>
+			<input type="text" name="master_level" />
+			<br />
+			<input type="submit" value="Validate Policy" />
+		</form>
+	</body>
+</html>

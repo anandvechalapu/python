@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sdfasd</groupId>
-	<artifactId>SAC-618</artifactId>
+	<artifactId>SAC-712</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>python</name>
